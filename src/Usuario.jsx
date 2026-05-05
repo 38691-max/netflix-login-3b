@@ -1,7 +1,7 @@
-import './App.css'
+import './Usuario.css'
 import Logo from "./assets/netflix.png"
 
-function App() {
+function Usuario() {
 
   return (
     <main>
@@ -9,7 +9,7 @@ function App() {
       <div id='form'>
           <img src={Logo} width={140} height={105} alt="Netflix" />
           <h2>Fazer Login</h2>
-          <form action="#" noValidate>
+          <form noValidate>
             <label htmlFor="email">Login</label>
             <input type="email" id='email' placeholder='Digite seu e-mail...' />
             <label htmlFor="password" id='password'>Senha</label>
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App;
+export default Usuario;
